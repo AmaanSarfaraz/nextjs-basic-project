@@ -1,11 +1,20 @@
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
   return (
     <main>
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+      <div className="mx-auto h-screen  px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:items-center md:gap-8">
           <div className="md:col-span-1">
+            <div className="mt-4 md:mt-8">
+              <Link
+                href="/"
+                className="inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
+              >
+                Home
+              </Link>
+            </div>
             <div className="max-w-lg md:max-w-none">
               <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

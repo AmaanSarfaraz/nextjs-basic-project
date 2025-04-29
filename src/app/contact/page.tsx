@@ -1,8 +1,17 @@
+import Link from "next/link";
 import React from "react";
 
 const Contact = () => {
   return (
     <main className="bg-white dark:bg-gray-900 h-screen flex justify-center items-center">
+      <div className="mt-4 md:mt-8">
+        <Link
+          href="/"
+          className="inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
+        >
+          Home
+        </Link>
+      </div>
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           Contact Us

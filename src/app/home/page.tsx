@@ -19,10 +19,10 @@ const Home = () => {
 
           <div className="mt-4 md:mt-8">
             <Link
-              href="#"
+              href="/"
               className="inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
             >
-              Get Started Today
+              home
             </Link>
           </div>
         </div>
